@@ -1,2 +1,3 @@
 #!/bin/bash
-rev
+result_string="${input_string//c/}"
+result_string="${result_string//C/}"
